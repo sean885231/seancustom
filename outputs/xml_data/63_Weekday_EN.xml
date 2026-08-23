@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwaopendata xmlns="urn:cwa:gov:tw:cwacommon:0.1">
-  <Identifier>8da136ff-beb1-4e38-9016-865d52334559</Identifier>
+  <Identifier>d845476b-fc4f-4dcc-8530-be870c9f190c</Identifier>
   <Sender>weather@cwa.gov.tw</Sender>
-  <Sent>2026-08-23T00:15:33+08:00</Sent>
+  <Sent>2026-08-23T06:15:03+08:00</Sent>
   <Status>Actual</Status>
   <Scope>Public</Scope>
   <MsgType>Issue</MsgType>
@@ -34,12 +34,12 @@
         <WeatherCode description="weather code" unit="NA"/>
         <WeatherDescription description="weather description" unit="NA"/>
       </DataValueInfo>
-      <IssueTime>2026-08-22T23:00:00+08:00</IssueTime>
+      <IssueTime>2026-08-23T05:00:00+08:00</IssueTime>
       <ValidTime>
-        <StartTime>2026-08-23T00:00:00+08:00</StartTime>
+        <StartTime>2026-08-23T06:00:00+08:00</StartTime>
         <EndTime>2026-08-30T06:00:00+08:00</EndTime>
       </ValidTime>
-      <Update>2026-08-23T00:15:33+08:00</Update>
+      <Update>2026-08-23T06:15:03+08:00</Update>
     </DatasetInfo>
     <Locations>
       <LocationsName>Taipei City</LocationsName>
@@ -50,13 +50,6 @@
         <Longitude>121.568983</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -159,13 +152,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -267,17 +253,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>26</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>27</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -374,13 +353,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -483,17 +455,10 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>90</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>82</RelativeHumidity>
+              <RelativeHumidity>81</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -590,13 +555,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -699,13 +657,6 @@
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -806,14 +757,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -930,18 +873,10 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndex>26</MinComfortIndex>
               <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -1053,27 +988,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -1176,24 +1103,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -1284,38 +1204,31 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -1392,14 +1305,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -1411,8 +1316,8 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
+              <WeatherCode>18</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -1435,8 +1340,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -1574,45 +1479,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 27 centigrade. Comfortable. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 26 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. SouthEast wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1687,13 +1585,6 @@
         <Longitude>121.558742</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -1796,13 +1687,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -1904,17 +1788,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>26</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>27</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2011,13 +1888,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -2120,17 +1990,10 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>90</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>82</RelativeHumidity>
+              <RelativeHumidity>81</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -2228,13 +2091,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -2245,7 +2101,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2335,13 +2191,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -2443,14 +2292,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -2567,18 +2408,10 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndex>26</MinComfortIndex>
               <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -2690,27 +2523,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -2813,17 +2638,10 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>S</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -2921,13 +2739,6 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -2945,21 +2756,21 @@
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -3029,14 +2840,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -3072,8 +2875,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -3211,45 +3014,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 27 centigrade. Comfortable. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 26 and 34 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. South wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 31 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 31 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3324,13 +3120,6 @@
         <Longitude>121.526401</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -3433,13 +3222,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -3541,17 +3323,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>26</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>27</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3648,13 +3423,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -3757,17 +3525,10 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>89</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>81</RelativeHumidity>
+              <RelativeHumidity>82</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -3865,13 +3626,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -3882,7 +3636,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3972,13 +3726,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -4080,14 +3827,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -4204,18 +3943,10 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndex>26</MinComfortIndex>
               <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -4327,27 +4058,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -4450,24 +4173,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -4558,13 +4274,6 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -4582,14 +4291,14 @@
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -4666,14 +4375,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -4709,8 +4410,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -4848,45 +4549,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 27 centigrade. Comfortable. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 26 and 34 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -4961,13 +4655,6 @@
         <Longitude>121.525346</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -5070,13 +4757,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -5177,13 +4857,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>27</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -5286,13 +4959,6 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -5393,13 +5059,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>89</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -5502,13 +5161,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>32</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -5519,7 +5171,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -5609,13 +5261,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -5717,14 +5362,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>27</MaxComfortIndex>
-              <MaxComfortIndexDescription>Hot</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -5841,14 +5478,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>26</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -5964,27 +5593,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -6086,13 +5707,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -6195,17 +5809,10 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -6219,14 +5826,14 @@
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -6303,14 +5910,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -6346,8 +5945,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -6485,45 +6084,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 27 and 27 centigrade. Comfortable ~ Hot. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -6598,13 +6190,6 @@
         <Longitude>121.516565</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -6707,13 +6292,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -6815,17 +6393,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>26</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>27</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -6922,13 +6493,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -7031,17 +6595,10 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>89</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>81</RelativeHumidity>
+              <RelativeHumidity>82</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -7139,13 +6696,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -7156,7 +6706,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -7246,13 +6796,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -7354,14 +6897,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -7478,18 +7013,10 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndex>26</MinComfortIndex>
               <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -7601,27 +7128,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -7724,24 +7243,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -7832,13 +7344,6 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -7856,14 +7361,14 @@
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -7940,14 +7445,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -7983,8 +7480,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -8122,45 +7619,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 27 centigrade. Comfortable. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 26 and 34 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -8235,13 +7725,6 @@
         <Longitude>121.507228</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -8344,13 +7827,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>28</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -8451,13 +7927,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>27</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -8560,13 +8029,6 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -8667,13 +8129,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>89</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -8776,13 +8231,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>32</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -8793,7 +8241,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -8884,17 +8332,10 @@
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
+              <MinApparentTemperature>31</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -8991,14 +8432,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>27</MaxComfortIndex>
-              <MaxComfortIndexDescription>Hot</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -9115,14 +8548,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>26</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -9238,27 +8663,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -9361,13 +8778,6 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -9469,17 +8879,10 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -9493,14 +8896,14 @@
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -9577,14 +8980,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -9620,8 +9015,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -9759,45 +9154,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 27 and 28 centigrade. Comfortable ~ Hot. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Hot. NorthEast wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -9872,13 +9260,6 @@
         <Longitude>121.491618</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -9981,13 +9362,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>28</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -10088,13 +9462,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>27</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -10197,17 +9564,10 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>27</DewPoint>
+              <DewPoint>28</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -10304,13 +9664,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>89</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -10413,13 +9766,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>32</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -10430,7 +9776,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -10520,13 +9866,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>31</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -10628,14 +9967,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>27</MaxComfortIndex>
-              <MaxComfortIndexDescription>Hot</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -10752,14 +10083,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>26</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -10875,27 +10198,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -10998,24 +10313,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>NE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -11106,13 +10414,6 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -11123,21 +10424,21 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -11214,14 +10515,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -11257,8 +10550,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -11396,45 +10689,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 27 and 28 centigrade. Comfortable ~ Hot. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 3m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -11509,13 +10795,6 @@
         <Longitude>121.561759</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>26</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -11618,13 +10897,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>26</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -11726,17 +10998,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>25</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>25</MinTemperature>
+              <MinTemperature>26</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -11833,13 +11098,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -11942,13 +11200,6 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>93</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -12050,24 +11301,17 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>30</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>36</MaxApparentTemperature>
+              <MaxApparentTemperature>37</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>33</MaxApparentTemperature>
+              <MaxApparentTemperature>32</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -12157,13 +11401,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>29</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -12265,14 +11502,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -12389,14 +11618,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -12512,19 +11733,11 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -12635,24 +11848,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -12743,38 +11949,31 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -12851,14 +12050,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -12870,8 +12061,8 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
+              <WeatherCode>18</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -12894,8 +12085,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -13033,45 +12224,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 26 centigrade. Comfortable. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 25 and 32 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 26 and 32 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 25 and 29 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 25 and 28 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 25 and 28 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 25 and 32 centigrade. Comfortable ~ Hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 25 and 32 centigrade. Comfortable ~ Hot. NorthWest wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -13146,13 +12330,6 @@
         <Longitude>121.59849</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>26</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -13255,13 +12432,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -13363,17 +12533,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>26</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>27</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -13471,17 +12634,10 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <DewPoint>28</DewPoint>
+              <DewPoint>27</DewPoint>
             </ElementValue>
           </Time>
           <Time>
@@ -13578,13 +12734,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>92</RelativeHumidity>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -13687,13 +12836,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -13704,7 +12846,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>34</MaxApparentTemperature>
+              <MaxApparentTemperature>33</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -13794,13 +12936,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -13902,14 +13037,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -14026,18 +13153,10 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndex>26</MinComfortIndex>
               <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -14149,27 +13268,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>2</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -14272,24 +13383,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>NW</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>SW</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -14380,24 +13484,17 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -14411,14 +13508,14 @@
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -14488,14 +13585,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -14507,8 +13596,8 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
+              <WeatherCode>18</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -14531,8 +13620,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -14670,24 +13759,17 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 27 centigrade. Comfortable. NorthEast wind 2m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. SouthWest wind 3m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 30 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -14701,14 +13783,14 @@
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 28 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 28 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -14783,13 +13865,6 @@
         <Longitude>121.58069</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -14892,13 +13967,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -15000,17 +14068,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>26</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>27</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -15107,13 +14168,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -15216,17 +14270,10 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>90</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>82</RelativeHumidity>
+              <RelativeHumidity>81</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -15323,13 +14370,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -15432,13 +14472,6 @@
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -15539,14 +14572,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -15663,18 +14688,10 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinComfortIndex>25</MinComfortIndex>
+              <MinComfortIndex>26</MinComfortIndex>
               <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
             </ElementValue>
           </Time>
@@ -15786,27 +14803,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -15909,24 +14918,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>NE</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>E</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -16017,38 +15019,31 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>40</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -16125,14 +15120,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -16144,8 +15131,8 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
+              <WeatherCode>18</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -16168,8 +15155,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -16307,45 +15294,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 27 centigrade. Comfortable. NorthEast wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 26 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. SouthEast wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. SouthEast wind 4m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Hot. East wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -16420,13 +15400,6 @@
         <Longitude>121.511458</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -16529,13 +15502,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -16636,13 +15602,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>27</MinTemperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -16745,13 +15704,6 @@
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -16853,17 +15805,10 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>91</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>83</RelativeHumidity>
+              <RelativeHumidity>82</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -16961,13 +15906,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>32</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -16978,7 +15916,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -17069,17 +16007,10 @@
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
+              <MinApparentTemperature>31</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -17176,14 +16107,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>27</MaxComfortIndex>
-              <MaxComfortIndexDescription>Hot</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -17300,14 +16223,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>26</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -17423,14 +16338,6 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -17442,8 +16349,8 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -17546,24 +16453,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>E</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>SE</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>E</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -17654,17 +16554,10 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -17678,14 +16571,14 @@
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -17762,14 +16655,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -17805,8 +16690,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -17944,45 +16829,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 27 and 27 centigrade. Comfortable ~ Hot. East wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. SouthEast wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. East wind 3m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 29 centigrade. Comfortable ~ Hot. East wind 3m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 26 and 33 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -18057,13 +16935,6 @@
         <Longitude>121.494596</Longitude>
         <WeatherElement>
           <ElementName>Average Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Temperature>27</Temperature>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -18166,13 +17037,6 @@
         <WeatherElement>
           <ElementName>Maximum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxTemperature>27</MaxTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -18274,17 +17138,10 @@
         <WeatherElement>
           <ElementName>Minimum Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinTemperature>26</MinTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinTemperature>26</MinTemperature>
+              <MinTemperature>27</MinTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -18381,13 +17238,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Average Dew Point Temperature</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <DewPoint>25</DewPoint>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -18490,17 +17340,10 @@
         <WeatherElement>
           <ElementName>Average Relative Humidity</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <RelativeHumidity>93</RelativeHumidity>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <RelativeHumidity>85</RelativeHumidity>
+              <RelativeHumidity>84</RelativeHumidity>
             </ElementValue>
           </Time>
           <Time>
@@ -18598,13 +17441,6 @@
         <WeatherElement>
           <ElementName>Maximum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -18615,7 +17451,7 @@
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>35</MaxApparentTemperature>
+              <MaxApparentTemperature>34</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -18706,17 +17542,10 @@
         <WeatherElement>
           <ElementName>Minimum Apparent Temperature</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>30</MinApparentTemperature>
+              <MinApparentTemperature>31</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -18813,14 +17642,6 @@
         </WeatherElement>
         <WeatherElement>
           <ElementName>Maximum Comfort Index</ElementName>
-          <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MaxComfortIndex>26</MaxComfortIndex>
-              <MaxComfortIndexDescription>Comfortable</MaxComfortIndexDescription>
-            </ElementValue>
-          </Time>
           <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
@@ -18937,14 +17758,6 @@
         <WeatherElement>
           <ElementName>Minimum Comfort Index</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <MinComfortIndex>26</MinComfortIndex>
-              <MinComfortIndexDescription>Comfortable</MinComfortIndexDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -19060,27 +17873,19 @@
         <WeatherElement>
           <ElementName>Wind Speed</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindSpeed>1</WindSpeed>
-              <BeaufortScale>&lt;= 1</BeaufortScale>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>4</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>3</WindSpeed>
-              <BeaufortScale>2</BeaufortScale>
+              <WindSpeed>5</WindSpeed>
+              <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -19183,24 +17988,17 @@
         <WeatherElement>
           <ElementName>Wind Direction</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WindDirection>E</WindDirection>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>S</WindDirection>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NE</WindDirection>
+              <WindDirection>E</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -19291,17 +18089,10 @@
         <WeatherElement>
           <ElementName>12 Hours Probability Of Precipitation</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -19315,14 +18106,14 @@
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -19399,14 +18190,6 @@
         <WeatherElement>
           <ElementName>Weather</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
@@ -19442,8 +18225,8 @@
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers or thunderstorms</Weather>
-              <WeatherCode>18</WeatherCode>
+              <Weather>Partly cloudy with afternoon occasional thundershowers</Weather>
+              <WeatherCode>22</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -19581,45 +18364,38 @@
         <WeatherElement>
           <ElementName>Weather Description</ElementName>
           <Time>
-            <StartTime>2026-08-23T00:00:00+08:00</StartTime>
-            <EndTime>2026-08-23T06:00:00+08:00</EndTime>
-            <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 26 and 27 centigrade. Comfortable. East wind 1m/s. Chance of precipitation 30%.</WeatherDescription>
-            </ElementValue>
-          </Time>
-          <Time>
             <StartTime>2026-08-23T06:00:00+08:00</StartTime>
             <EndTime>2026-08-23T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly cloudy with occasional showers or thunderstorms. Temperature between 26 and 34 centigrade. Comfortable ~ Extremely hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy with occasional showers or thunderstorms. Temperature between 27 and 34 centigrade. Comfortable ~ Extremely hot. South wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-23T18:00:00+08:00</StartTime>
             <EndTime>2026-08-24T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 3m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 30 centigrade. Comfortable ~ Hot. East wind 5m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T06:00:00+08:00</StartTime>
             <EndTime>2026-08-24T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 31 centigrade. Comfortable ~ Extremely hot. East wind 4m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-24T18:00:00+08:00</StartTime>
             <EndTime>2026-08-25T06:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 30%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 29 centigrade. Comfortable ~ Hot. East wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-08-25T06:00:00+08:00</StartTime>
             <EndTime>2026-08-25T18:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers or thunderstorms. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy with afternoon occasional thundershowers. Temperature between 27 and 32 centigrade. Comfortable ~ Extremely hot. NorthWest wind 2m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
