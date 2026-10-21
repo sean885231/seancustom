@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <cwaopendata xmlns="urn:cwa:gov:tw:cwacommon:0.1">
-  <Identifier>ef16fd37-3364-422d-b9cb-adbae0a97334</Identifier>
+  <Identifier>3ac06339-19c8-42b9-83d6-e16b6ad6a797</Identifier>
   <Sender>weather@cwa.gov.tw</Sender>
-  <Sent>2026-10-21T18:15:44+08:00</Sent>
+  <Sent>2026-10-22T00:15:38+08:00</Sent>
   <Status>Actual</Status>
   <Scope>Public</Scope>
   <MsgType>Issue</MsgType>
@@ -34,12 +34,12 @@
         <WeatherCode description="weather code" unit="NA"/>
         <WeatherDescription description="weather description" unit="NA"/>
       </DataValueInfo>
-      <IssueTime>2026-10-21T17:00:00+08:00</IssueTime>
+      <IssueTime>2026-10-21T23:00:00+08:00</IssueTime>
       <ValidTime>
-        <StartTime>2026-10-21T18:00:00+08:00</StartTime>
+        <StartTime>2026-10-22T00:00:00+08:00</StartTime>
         <EndTime>2026-10-29T00:00:00+08:00</EndTime>
       </ValidTime>
-      <Update>2026-10-21T18:15:44+08:00</Update>
+      <Update>2026-10-22T00:15:38+08:00</Update>
     </DatasetInfo>
     <Locations>
       <LocationsName>Taichung City</LocationsName>
@@ -321,7 +321,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>30</MaxApparentTemperature>
+              <MaxApparentTemperature>28</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -373,14 +373,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>26</MinApparentTemperature>
+              <MinApparentTemperature>24</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -544,16 +544,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -647,7 +647,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -758,8 +758,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -817,21 +817,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1142,7 +1142,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>30</MaxApparentTemperature>
+              <MaxApparentTemperature>29</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1194,14 +1194,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>25</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>27</MinApparentTemperature>
+              <MinApparentTemperature>25</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -1365,16 +1365,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>4</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -1468,7 +1468,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -1579,8 +1579,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -1638,21 +1638,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 5m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 5m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 5m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 10m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -1963,7 +1963,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>28</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2008,21 +2008,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>25</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>27</MinApparentTemperature>
+              <MinApparentTemperature>25</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2186,16 +2186,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -2289,21 +2289,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -2341,24 +2341,24 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy</Weather>
+              <WeatherCode>07</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -2400,8 +2400,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -2459,21 +2459,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 5m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 8m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -2784,7 +2784,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>28</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2836,14 +2836,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>27</MinApparentTemperature>
+              <MinApparentTemperature>24</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -2999,7 +2999,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
+              <WindSpeed>7</WindSpeed>
               <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
@@ -3007,16 +3007,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -3110,7 +3110,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -3124,7 +3124,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -3162,8 +3162,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -3178,8 +3178,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -3221,8 +3221,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -3280,21 +3280,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable. North wind 6m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 5m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 9m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -3605,7 +3605,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3650,21 +3650,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>26</MinApparentTemperature>
+              <MinApparentTemperature>24</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -3828,16 +3828,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -3931,7 +3931,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -4101,21 +4101,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -4419,14 +4419,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>28</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>28</MaxApparentTemperature>
+              <MaxApparentTemperature>26</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -4478,14 +4478,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>26</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -4641,24 +4641,24 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>8</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -4752,7 +4752,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -4766,7 +4766,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -4804,8 +4804,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -4820,8 +4820,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -4922,21 +4922,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 28 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 28 centigrade. Comfortable. North wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 8m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -5240,14 +5240,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>28</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -5299,14 +5299,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>26</MinApparentTemperature>
+              <MinApparentTemperature>24</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -5470,16 +5470,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -5573,7 +5573,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -5587,7 +5587,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -5625,8 +5625,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -5641,8 +5641,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -5684,8 +5684,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -5743,21 +5743,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 6m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 9m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -6068,7 +6068,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -6113,21 +6113,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>26</MinApparentTemperature>
+              <MinApparentTemperature>24</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -6291,16 +6291,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -6394,7 +6394,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -6564,21 +6564,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -6889,7 +6889,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>28</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -6934,21 +6934,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>25</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -7104,24 +7104,24 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>8</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -7215,7 +7215,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -7385,21 +7385,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 23 and 28 centigrade. Comfortable. NorthEast wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 23 and 28 centigrade. Comfortable. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 27 centigrade. Comfortable ~ Hot. North wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 27 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 70%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -7703,14 +7703,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>28</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -7762,7 +7762,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -7925,23 +7925,23 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>6</WindSpeed>
+              <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
+              <WindSpeed>7</WindSpeed>
               <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
@@ -8036,7 +8036,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -8088,8 +8088,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -8206,21 +8206,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 21 and 28 centigrade. Comfortable. East wind 5m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 21 and 28 centigrade. Comfortable. East wind 6m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 27 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 27 centigrade. Comfortable. North wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 29 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 90%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 90%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -8762,8 +8762,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -8857,7 +8857,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -8871,7 +8871,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -8909,8 +8909,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>Mostly cloudy</Weather>
+              <WeatherCode>05</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -8925,8 +8925,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -9027,7 +9027,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Mostly cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -9041,7 +9041,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -9411,7 +9411,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -9583,8 +9583,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -9692,7 +9692,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -9730,8 +9730,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly cloudy</Weather>
-              <WeatherCode>04</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -9746,8 +9746,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -9848,7 +9848,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -9862,7 +9862,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -10232,7 +10232,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -10404,8 +10404,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>9</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -10499,21 +10499,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -10567,8 +10567,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -10669,21 +10669,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -11039,7 +11039,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -11225,8 +11225,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -11320,21 +11320,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -11380,16 +11380,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy</Weather>
+              <WeatherCode>07</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -11490,21 +11490,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -11808,14 +11808,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>25</MaxApparentTemperature>
+              <MaxApparentTemperature>24</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>26</MaxApparentTemperature>
+              <MaxApparentTemperature>25</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -11860,21 +11860,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>20</MinApparentTemperature>
+              <MinApparentTemperature>19</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -12030,7 +12030,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>9</WindSpeed>
+              <WindSpeed>10</WindSpeed>
               <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
@@ -12038,16 +12038,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>9</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -12141,7 +12141,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -12311,21 +12311,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 22 and 27 centigrade. Comfortable. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 22 and 27 centigrade. Comfortable. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 27 centigrade. Comfortable. North wind 9m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 29 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 70%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -12629,14 +12629,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>25</MaxApparentTemperature>
+              <MaxApparentTemperature>24</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>25</MaxApparentTemperature>
+              <MaxApparentTemperature>24</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -12681,21 +12681,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>20</MinApparentTemperature>
+              <MinApparentTemperature>19</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -12851,7 +12851,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>9</WindSpeed>
+              <WindSpeed>10</WindSpeed>
               <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
@@ -12859,16 +12859,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>8</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -12962,7 +12962,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -13014,8 +13014,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -13132,21 +13132,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 23 and 27 centigrade. Comfortable. North wind 9m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 23 and 27 centigrade. Comfortable. North wind 10m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 26 centigrade. Comfortable. North wind 10m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 26 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -13457,7 +13457,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -13502,21 +13502,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>26</MinApparentTemperature>
+              <MinApparentTemperature>24</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -13672,24 +13672,24 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -13783,7 +13783,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -13835,8 +13835,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -13894,8 +13894,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -13953,21 +13953,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 8m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 7m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 70%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -14278,7 +14278,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>26</MaxApparentTemperature>
+              <MaxApparentTemperature>25</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -14330,14 +14330,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -14501,16 +14501,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>9</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>8</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -14604,7 +14604,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -14618,7 +14618,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -14656,8 +14656,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly clear</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>Mostly clear</Weather>
+              <WeatherCode>02</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -14774,21 +14774,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 23 and 27 centigrade. Comfortable. North wind 9m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Mostly clear. Temperature between 23 and 27 centigrade. Comfortable. North wind 9m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 27 centigrade. Comfortable. North wind 9m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -15099,7 +15099,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>28</MaxApparentTemperature>
+              <MaxApparentTemperature>26</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -15144,14 +15144,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>22</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>22</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -15314,16 +15314,16 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>6</WindSpeed>
+              <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -15425,7 +15425,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -15477,8 +15477,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -15595,14 +15595,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 21 and 28 centigrade. Comfortable. SouthWest wind 5m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 21 and 28 centigrade. Comfortable. SouthWest wind 6m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 21 and 26 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 21 and 26 centigrade. Comfortable. North wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -15920,7 +15920,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>27</MaxApparentTemperature>
+              <MaxApparentTemperature>25</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -15972,14 +15972,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>22</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -16135,7 +16135,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
+              <WindSpeed>7</WindSpeed>
               <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
@@ -16143,16 +16143,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>7</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -16246,7 +16246,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -16298,8 +16298,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -16416,21 +16416,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 22 and 27 centigrade. Comfortable. North wind 6m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 22 and 27 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 26 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 26 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 28 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 70%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 28 centigrade. Comfortable ~ Hot. North wind 8m/s. Chance of precipitation 70%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -16786,7 +16786,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>20</MinApparentTemperature>
+              <MinApparentTemperature>18</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -16800,7 +16800,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>21</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -16972,8 +16972,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>8</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -17074,14 +17074,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>70</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -17244,14 +17244,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 70%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 22 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -17888,7 +17888,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -17902,7 +17902,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -17956,8 +17956,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -18058,7 +18058,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -18072,7 +18072,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -18383,7 +18383,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>28</MaxApparentTemperature>
+              <MaxApparentTemperature>27</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -18435,14 +18435,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>26</MinApparentTemperature>
+              <MinApparentTemperature>24</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -18606,7 +18606,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>8</WindSpeed>
+              <WindSpeed>10</WindSpeed>
               <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
@@ -18614,8 +18614,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -18709,21 +18709,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -18761,24 +18761,24 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Mostly clear</Weather>
-              <WeatherCode>02</WeatherCode>
+              <Weather>Partly clear</Weather>
+              <WeatherCode>03</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy</Weather>
+              <WeatherCode>07</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -18820,8 +18820,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -18879,21 +18879,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Mostly clear. Temperature between 24 and 29 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable. North wind 7m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 8m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. North wind 10m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 6m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. NorthEast wind 9m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -19256,14 +19256,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -19419,8 +19419,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>10</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -19435,8 +19435,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>9</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -19530,21 +19530,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>50</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -19590,16 +19590,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy</Weather>
+              <WeatherCode>07</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -19700,21 +19700,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 24 and 28 centigrade. Comfortable. North wind 10m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 28 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 25 and 29 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -20084,7 +20084,7 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>24</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -20256,8 +20256,8 @@
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>9</WindSpeed>
-              <BeaufortScale>5</BeaufortScale>
+              <WindSpeed>&gt;= 11</WindSpeed>
+              <BeaufortScale>&gt;= 6</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -20351,21 +20351,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>60</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>30</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -20411,16 +20411,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy with occasional showers</Weather>
-              <WeatherCode>11</WeatherCode>
+              <Weather>Cloudy</Weather>
+              <WeatherCode>07</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Cloudy</Weather>
-              <WeatherCode>07</WeatherCode>
+              <Weather>Cloudy with occasional showers</Weather>
+              <WeatherCode>11</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -20521,21 +20521,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy. Temperature between 24 and 27 centigrade. Comfortable. North wind &gt;= 11m/s. Chance of precipitation 20%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 9m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind &gt;= 11m/s. Chance of precipitation 30%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -20846,7 +20846,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>31</MaxApparentTemperature>
+              <MaxApparentTemperature>30</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -20898,14 +20898,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>25</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>27</MinApparentTemperature>
+              <MinApparentTemperature>25</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -21061,7 +21061,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>4</WindSpeed>
+              <WindSpeed>5</WindSpeed>
               <BeaufortScale>3</BeaufortScale>
             </ElementValue>
           </Time>
@@ -21069,16 +21069,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>4</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>6</WindSpeed>
+              <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -21172,7 +21172,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -21342,21 +21342,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 23 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 4m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 23 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 5m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 5m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 23 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 8m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. North wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 30 centigrade. Comfortable ~ Hot. North wind 6m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -21667,7 +21667,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>30</MaxApparentTemperature>
+              <MaxApparentTemperature>29</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -21719,14 +21719,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>25</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>27</MinApparentTemperature>
+              <MinApparentTemperature>25</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -21890,16 +21890,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>10</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>4</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -21993,7 +21993,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -22104,8 +22104,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -22163,21 +22163,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 5m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. NorthEast wind 5m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 5m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 10m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 8m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -22488,7 +22488,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>30</MaxApparentTemperature>
+              <MaxApparentTemperature>29</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -22540,14 +22540,14 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>25</MinApparentTemperature>
+              <MinApparentTemperature>23</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>27</MinApparentTemperature>
+              <MinApparentTemperature>25</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -22711,16 +22711,16 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>6</WindSpeed>
-              <BeaufortScale>4</BeaufortScale>
+              <WindSpeed>9</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>5</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>8</WindSpeed>
+              <BeaufortScale>5</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -22814,7 +22814,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>0</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -22925,8 +22925,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <UVIndex>5</UVIndex>
-              <UVExposureLevel>Moderate</UVExposureLevel>
+              <UVIndex>6</UVIndex>
+              <UVExposureLevel>High</UVExposureLevel>
             </ElementValue>
           </Time>
           <Time>
@@ -22984,21 +22984,21 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 5m/s. Chance of precipitation 0%.</WeatherDescription>
+              <WeatherDescription>Partly clear. Temperature between 24 and 29 centigrade. Comfortable ~ Hot. North wind 5m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 6m/s. Chance of precipitation 40%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 24 and 28 centigrade. Comfortable ~ Hot. NorthWest wind 9m/s. Chance of precipitation 40%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-24T00:00:00+08:00</StartTime>
             <EndTime>2026-10-25T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 5m/s. Chance of precipitation 50%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 25 and 30 centigrade. Comfortable ~ Hot. NorthWest wind 8m/s. Chance of precipitation 50%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
@@ -23309,7 +23309,7 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MaxApparentTemperature>29</MaxApparentTemperature>
+              <MaxApparentTemperature>28</MaxApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -23354,14 +23354,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>21</MinApparentTemperature>
+              <MinApparentTemperature>20</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <MinApparentTemperature>23</MinApparentTemperature>
+              <MinApparentTemperature>22</MinApparentTemperature>
             </ElementValue>
           </Time>
           <Time>
@@ -23524,7 +23524,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>2</WindSpeed>
+              <WindSpeed>3</WindSpeed>
               <BeaufortScale>2</BeaufortScale>
             </ElementValue>
           </Time>
@@ -23532,8 +23532,8 @@
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindSpeed>4</WindSpeed>
-              <BeaufortScale>3</BeaufortScale>
+              <WindSpeed>6</WindSpeed>
+              <BeaufortScale>4</BeaufortScale>
             </ElementValue>
           </Time>
           <Time>
@@ -23583,7 +23583,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WindDirection>NW</WindDirection>
+              <WindDirection>E</WindDirection>
             </ElementValue>
           </Time>
           <Time>
@@ -23635,7 +23635,7 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <ProbabilityOfPrecipitation>20</ProbabilityOfPrecipitation>
+              <ProbabilityOfPrecipitation>10</ProbabilityOfPrecipitation>
             </ElementValue>
           </Time>
           <Time>
@@ -23687,8 +23687,8 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <Weather>Partly clear</Weather>
-              <WeatherCode>03</WeatherCode>
+              <Weather>Partly cloudy</Weather>
+              <WeatherCode>04</WeatherCode>
             </ElementValue>
           </Time>
           <Time>
@@ -23805,14 +23805,14 @@
             <StartTime>2026-10-22T00:00:00+08:00</StartTime>
             <EndTime>2026-10-23T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Partly clear. Temperature between 20 and 28 centigrade. Comfortable. NorthWest wind 2m/s. Chance of precipitation 20%.</WeatherDescription>
+              <WeatherDescription>Partly cloudy. Temperature between 20 and 28 centigrade. Comfortable. East wind 3m/s. Chance of precipitation 10%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
             <StartTime>2026-10-23T00:00:00+08:00</StartTime>
             <EndTime>2026-10-24T00:00:00+08:00</EndTime>
             <ElementValue>
-              <WeatherDescription>Cloudy with occasional showers. Temperature between 21 and 26 centigrade. Comfortable. NorthWest wind 4m/s. Chance of precipitation 60%.</WeatherDescription>
+              <WeatherDescription>Cloudy with occasional showers. Temperature between 21 and 26 centigrade. Comfortable. NorthWest wind 6m/s. Chance of precipitation 60%.</WeatherDescription>
             </ElementValue>
           </Time>
           <Time>
